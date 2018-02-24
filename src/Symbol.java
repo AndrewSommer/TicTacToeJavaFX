@@ -2,7 +2,7 @@
  * enum to specify all symbols a tile can hold
  *
  * @author AndrewSommer
- * @version 1.0.0 06 November 2017
+ * @version 1.0.0 06 February 2018
  */
 public enum Symbol {
     CROSS('X'),
@@ -16,6 +16,7 @@ public enum Symbol {
 
     /**
      * Constructor
+     *
      * @param symbol
      */
     Symbol(char symbol) {
@@ -24,6 +25,7 @@ public enum Symbol {
 
     /**
      * Returns the character of the symbol
+     *
      * @return
      */
     public char getSymbol() {

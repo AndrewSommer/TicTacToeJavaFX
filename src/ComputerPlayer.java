@@ -5,7 +5,7 @@ import java.util.Random;
  * a tile
  *
  * @author AndrewSommer
- * @version 1.0.0 06 November 2017
+ * @version 1.0.0 06 February 2018
  */
 public class ComputerPlayer extends Player {
 
@@ -26,6 +26,7 @@ public class ComputerPlayer extends Player {
     /**
      * specific code for the computer to randomly choose an empty tile
      * and return its location
+     *
      * @return
      */
     @Override

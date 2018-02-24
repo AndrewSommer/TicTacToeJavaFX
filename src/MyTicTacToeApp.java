@@ -16,8 +16,9 @@ import java.io.IOException;
 public class MyTicTacToeApp extends Application {
 
     public static void main(String[] args) {
-    launch(args);
+        launch(args);
     }
+
     public void start(Stage primaryStage) {
         try {
             Parent root =

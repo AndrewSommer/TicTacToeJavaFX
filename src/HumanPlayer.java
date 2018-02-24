@@ -3,7 +3,7 @@
  * a tile
  *
  * @author AndrewSommer
- * @version 1.0.0 06 November 2017
+ * @version 1.0.0 06 February 2018
  */
 public class HumanPlayer extends Player {
 
@@ -23,6 +23,7 @@ public class HumanPlayer extends Player {
 
     /**
      * Returns the location of the tile wanted to mark
+     *
      * @return
      */
     @Override
@@ -33,8 +34,9 @@ public class HumanPlayer extends Player {
 
     /**
      * Sets the location of the next move based on a mouseclick event from the view
-     * @param row   the row index to place the symbol
-     * @param col   the column index to place the symbol
+     *
+     * @param row the row index to place the symbol
+     * @param col the column index to place the symbol
      */
     public void getNextMove(int row, int col) {
         nextMove[0] = row;

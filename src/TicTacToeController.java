@@ -6,6 +6,9 @@ import javafx.scene.input.MouseEvent;
 
 /**
  * The Controller for the TicTacToeView.fxml file
+ *
+ * @author AndrewSommer
+ * @version 1.0.0 06 February 2018
  */
 public class TicTacToeController {
     /**
@@ -168,6 +171,7 @@ public class TicTacToeController {
     /**
      * Is called whenever the tic-tac-board gui is clicked, and calls the methods for both human and computer
      * players to add their mark to the board
+     *
      * @param event
      */
     @FXML
@@ -194,9 +198,10 @@ public class TicTacToeController {
 
     /**
      * Called when the game is over to change the gui
+     *
      * @param winner
      */
-    private void gameOver(String winner){
+    private void gameOver(String winner) {
         promptLabel.setVisible(false);
         humVcompButton.setVisible(true);
         humVhumButton.setVisible(true);

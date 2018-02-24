@@ -2,7 +2,7 @@
  * Abstract class to for human and computer players to extend
  *
  * @author AndrewSommer
- * @version 1.0.0 06 November 2017
+ * @version 1.0.0 06 February 2018
  */
 public abstract class Player {
 
@@ -21,6 +21,7 @@ public abstract class Player {
 
     /**
      * Constructor
+     *
      * @param userSymbol
      */
     public Player(Symbol userSymbol) {
@@ -39,6 +40,7 @@ public abstract class Player {
     /**
      * Abstract method which each player overrides with their own tile
      * choosing specific code
+     *
      * @return location of the tile wanted to mark
      */
     public abstract int[] chooseTile();

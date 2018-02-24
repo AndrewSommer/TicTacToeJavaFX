@@ -19,6 +19,7 @@ public enum BoardStatus {
 
     /**
      * Constructor for the BoardStatus class
+     *
      * @param status
      */
     BoardStatus(String status) {
@@ -27,6 +28,7 @@ public enum BoardStatus {
 
     /**
      * Returns the status of the board
+     *
      * @return
      */
     public String getStatus() {
